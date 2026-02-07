@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Darling</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-pattern"></div>
+    <div class="container">
+        <h1>Hey Shalni, <i class="fas fa-heart heart-icon"></i></h1>
+        <p class="intro">I've been wanting to tell you something...</p>
+        <div class="video-wrapper">
+            <video class="video" controls muted autoplay loop poster="video-poster.jpg">
+                <source src="/video.mp4" type="video/mp4">
+                <source src="/video.mp4" type="video/webm">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <p class="message">You're amazing because you are so lovable and <b>I Love U soooo much moti </b>. Let's grab coffee sometime? <i class="fas fa-coffee"></i></p>
+        <button onclick="showSurprise()">Click for a surprise <i class="fas fa-gift"></i></button>
+        <div id="surprise" class="surprise hidden">🌟 You make my day brighter! 🌟 <i class="fas fa-star"></i></div>
+        <div id="response-section" class="response-section hidden">
+            <p class="question">Will you say yes to going out with me? 💕</p>
+            <button class="yes-btn" onclick="respondYes()">Yes! <i class="fas fa-check"></i></button>
+            <button class="no-btn" onclick="respondNo()">No, sorry <i class="fas fa-times"></i></button>
+        </div>
+        <div id="yes-response" class="response hidden">Yay! I can't wait! Let's plan something amazing. ❤️🎉</div>
+        <div id="no-response" class="response hidden">No worries, moti! You're still the best. Maybe someday? 😘</div>
+    </div>
+    <script src="/script.js""></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
